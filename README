@@ -165,7 +165,7 @@ Feature roadmap (the features I want to implement in a subsequent release)
 
 Docker
 
-1. `docker image build -t=stun-server-image .`
+1. `docker image build -t=stun-server-image .` or `docker build -t=stun-server-image:v1.2.16 -f Dockerfile.alpine .`
 2. `docker container run -d -p 3478:3478/tcp -p 3478:3478/udp
 --name=stun-container stun-server-image`
 
